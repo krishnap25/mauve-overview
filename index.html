@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>MAUVE: Statistical Evaluation of LLMs and Generative AI &#8212; MAUVE: Statistical Evaluation of LLMs and Generative AI</title>
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b849a4e9" />
+    <link rel="stylesheet" type="text/css" href="_static/insipid.css?v=b2d00be7" />
+    <link rel="stylesheet" type="text/css" href="_static/css-style.css?v=16da047e" />
+
+    <script src="_static/documentation_options.js?v=8a448e45"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script defer src="_static/insipid.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+  </head><body>
+    <script type="text/javascript">
+        document.body.classList.add('js');
+    </script>
+    <header id="topbar-placeholder">
+      <div id="topbar">
+        <div id="titlebar">
+          <div class="buttons">
+            <button id="search-button" type="button" title="Search" aria-label="Search" aria-expanded="false" aria-controls="search-form" accesskey="S">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+            </button>
+          </div>
+          <div class="title">
+            <span class="parent">MAUVE: Statistical Evaluation of LLMs and Generative AI</span>
+            <a class="top" href="#">MAUVE: Statistical Evaluation of LLMs and Generative AI</a>
+          </div>
+          <div class="buttons">
+            <button id="fullscreen-button" type="button" aria-hidden="true">
+              <span class="enable">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M212.686 315.314L120 408l32.922 31.029c15.12 15.12 4.412 40.971-16.97 40.971h-112C10.697 480 0 469.255 0 456V344c0-21.382 25.803-32.09 40.922-16.971L72 360l92.686-92.686c6.248-6.248 16.379-6.248 22.627 0l25.373 25.373c6.249 6.248 6.249 16.378 0 22.627zm22.628-118.628L328 104l-32.922-31.029C279.958 57.851 290.666 32 312.048 32h112C437.303 32 448 42.745 448 56v112c0 21.382-25.803 32.09-40.922 16.971L376 152l-92.686 92.686c-6.248 6.248-16.379 6.248-22.627 0l-25.373-25.373c-6.249-6.248-6.249-16.378 0-22.627z"/></svg>
+              </span>
+              <span class="disable">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M4.686 427.314L104 328l-32.922-31.029C55.958 281.851 66.666 256 88.048 256h112C213.303 256 224 266.745 224 280v112c0 21.382-25.803 32.09-40.922 16.971L152 376l-99.314 99.314c-6.248 6.248-16.379 6.248-22.627 0L4.686 449.941c-6.248-6.248-6.248-16.379 0-22.627zM443.314 84.686L344 184l32.922 31.029c15.12 15.12 4.412 40.971-16.97 40.971h-112C234.697 256 224 245.255 224 232V120c0-21.382 25.803-32.09 40.922-16.971L296 136l99.314-99.314c6.248-6.248 16.379-6.248 22.627 0l25.373 25.373c6.248 6.248 6.248 16.379 0 22.627z"/></svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div id="searchbox" role="search">
+          <form id="search-form" class="search" style="display: none" action="search.html" method="get">
+            <input type="search" name="q" placeholder="Search ..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+            <button>Go</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <nav>
+    </nav>
+
+    <nav class="relbar">
+    </nav>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+<section id="mauve-statistical-evaluation-of-llms-and-generative-ai">
+<h1>MAUVE: Statistical Evaluation of LLMs and Generative AI<a class="headerlink" href="#mauve-statistical-evaluation-of-llms-and-generative-ai" title="Link to this heading">¶</a></h1>
+<div style="text-align: center">
+    <table align=center>
+        <tr>
+            <h5 style="font-weight:normal, text-align: center">
+                <a href="https://krishnap25.github.io">Krishna Pillutla</a><sup>1*</sup>,
+                <a href="https://langliu95.github.io/">Lang Liu</a><sup>2*</sup>,
+                <a href="https://johnthickstun.com/">John Thickstun</a><sup>3</sup>,
+                <a href="https://wellecks.com/">Sean Welleck</a><sup>4</sup>,
+                <a href="https://swabhs.com/"> Swabha Swayamdipta </a><sup>5</sup>, <br>
+                <a href="https://rowanzellers.com/">Rowan Zellers</a><sup>6</sup>,
+                <a href="https://homes.cs.washington.edu/~sewoong/">Sewoong Oh</a><sup>7</sup>,
+                <a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi</a><sup>7, 8</sup>,
+                <a href="http://faculty.washington.edu/zaid/">Zaid Harchaoui</a><sup>7</sup>
+            </h5>
+        </tr>
+        <tr>
+              <h6 style="font-weight:normal">
+                <sup>1</sup>IIT Madras,
+                <sup>2</sup>Citadel Securities,
+                <sup>3</sup>Stanford University,
+                <sup>4</sup>CMU,
+                <sup>5</sup>USC,
+                <sup>6</sup>OpenAI, <br>
+                <sup>7</sup>University of Washington,
+                <sup>8</sup>Allen Institute for Artificial Intelligence
+                <br>
+                <sup>*</sup>Equal Contribution
+              </h6>
+        </tr>
+        <tr>
+              <h4 style="font-weight:normal">
+                <i><b>NeurIPS 2021 Outstanding Paper Award</b></i>
+              </h4>
+        </tr>
+        <tr>
+              <h4 style="font-weight:normal">
+                <b>Papers</b>:
+                <a href="https://www.jmlr.org/papers/volume24/23-0023/23-0023.pdf">
+                  JMLR '23</a>,  &nbsp;
+                <a href="https://arxiv.org/pdf/2102.01454">
+                  NeurIPS '21a</a>,
+                <a href="https://arxiv.org/pdf/2106.07898">
+                  NeurIPS '21b</a>
+                <br> <br>
+                <b>Software</b>:
+                <a href="https://github.com/krishnap25/mauve">
+                  Pip Package</a>,  &nbsp;
+                <a href="https://huggingface.co/spaces/evaluate-metric/mauve">
+                  HuggingFace Evaluate</a>,  &nbsp;
+                <a href="https://github.com/krishnap25/mauve-experiments">
+                  Full Code
+                </a>  &nbsp;
+              </h4>
+        </tr>
+    </table>
+</div><a class="reference internal image-reference" href="_images/illustration.png"><img alt="alternate text" class="align-center" src="_images/illustration.png" style="width: 900px;" />
+</a>
+<p>Generative artificial intelligence has made significant strides, producing text indistinguishable from human prose and remarkably photorealistic images and videos. Automatically measuring how close the generated data distribution is to the target distribution is central to diagnosing existing models and developing better ones. We present MAUVE, a family of comparison measures between pairs of distributions such as those encountered in the generative modeling of text or images. These scores are statistical summaries of divergence frontiers capturing two types of errors in generative modeling. We explore three approaches to statistically estimate these scores: vector quantization, non-parametric estimation, and classifier-based estimation. We provide statistical bounds for the vector quantization approach.</p>
+<p>Empirically, we find that the proposed scores paired with a range of
+<em>f</em>-divergences and statistical estimation methods can quantify the gaps between the distributions of human-written text and those of modern neural language models by correlating with human judgments and identifying known properties of the generated texts. We demonstrate in the vision domain that MAUVE can identify known properties of generated images on par with or better than existing metrics. In conclusion, we present practical recommendations for using MAUVE effectively with language and image modalities.</p>
+<section id="empirical-results">
+<h2>Empirical Results<a class="headerlink" href="#empirical-results" title="Link to this heading">¶</a></h2>
+<div style="text-align: center">
+    <table align=center>
+        <tr>
+            <h3 style="font-weight:normal, text-align: center">
+                Measuring the Gap Between Model-Generated Text and Human Text
+            </h3>
+        </tr>
+    </table>
+</div><p><strong>MAUVE correlates better with human judgements</strong> when compared to prior metrics. A A larger Spearman rank correlation means that the ranking of models obtained from the metric is closer to with the ranking derived from human judgements. We see that MAUVE’s correlations are closer to 1, implying near perfect correlation.</p>
+<a class="reference internal image-reference" href="_images/results1.png"><img alt="alternate text" class="align-center" src="_images/results1.png" style="width: 900px;" />
+</a>
+<p><strong>MAUVE quantifies trends that were previously observed qualitatively</strong>. For instance, larger models are generally better, longer generations are generally worse:</p>
+<a class="reference internal image-reference" href="_images/results2.png"><img alt="alternate text" class="align-center" src="_images/results2.png" style="width: 800px;" />
+</a>
+<div style="text-align: center">
+    <table align=center>
+        <tr>
+            <h3 style="font-weight:normal, text-align: center">
+                Measuring the Gap Between Generated and Real Images
+            </h3>
+        </tr>
+    </table>
+</div><p><strong>MAUVE identifies known properties of generated images</strong> on par with or better than previous metrics, for instance, with the sampling algorithm (here, we vary the truncation parameter for StyleGAN2-ADA)…</p>
+<a class="reference internal image-reference" href="_images/results3.png"><img alt="alternate text" class="align-center" src="_images/results3.png" style="width: 800px;" />
+</a>
+<p>... and with architectural improvements (here, we plot different versions of the StyleGAN model).</p>
+<a class="reference internal image-reference" href="_images/results4.png"><img alt="alternate text" class="align-center" src="_images/results4.png" style="width: 800px;" />
+</a>
+</section>
+<section id="theoretical-results">
+<h2>Theoretical Results<a class="headerlink" href="#theoretical-results" title="Link to this heading">¶</a></h2>
+<p>The estimation of MAUVE involves two errors: from quantization and from estimating the divergences from samples.</p>
+<a class="reference internal image-reference" href="_images/theory1.png"><img alt="alternate text" class="align-center" src="_images/theory1.png" style="width: 500px;" />
+</a>
+<p>We bound both types of errors and consider smoothed distribution estimators that are <strong>better both in theory and in practice</strong>.</p>
+<a class="reference internal image-reference" href="_images/theory2.png"><img alt="alternate text" class="align-center" src="_images/theory2.png" style="width: 900px;" />
+</a>
+</section>
+<section id="other-detailed-results">
+<h2>Other Detailed Results<a class="headerlink" href="#other-detailed-results" title="Link to this heading">¶</a></h2>
+<p>We also have several detailed comparisons and ablation studies in the paper:</p>
+<ul class="simple">
+<li><p><strong>Experimental Domains</strong>: Story and news article generations (language domain), and GAN vs. diffusion models (image domain)</p></li>
+<li><p><strong>Baselines</strong>: comparison to generative precision-recall, and metrics based on optimal transport</p></li>
+<li><p><strong>Methodological Choices</strong>: Comparison to other <em>f</em>-divergences; effect of varying the embedding: various types of LLMs and classical string kernel embedding</p></li>
+<li><p><strong>Algorithmic Choices</strong>: Comparison of different estimation methods: non-parametric nearest neighbors and kernel density estimators, classifier-based estimation, and parametric approximation</p></li>
+</ul>
+<p>These studies demonstrate the strong robustness of MAUVE and justify the various design choices involved.</p>
+</section>
+<section id="software-demo">
+<h2>Software Demo<a class="headerlink" href="#software-demo" title="Link to this heading">¶</a></h2>
+<p>Install the software with <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">mauve-text</span></code> or use via HuggingFace Evaluate
+as follows:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">mauve</span>   <span class="c1"># pip install mauve-text</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">p_text</span> <span class="o">=</span> <span class="o">...</span>  <span class="c1"># list of strings</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">q_text</span> <span class="o">=</span> <span class="o">...</span>  <span class="c1"># list of strings</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">out</span> <span class="o">=</span> <span class="n">mauve</span><span class="o">.</span><span class="n">compute_mauve</span><span class="p">(</span><span class="n">p_text</span><span class="o">=</span><span class="n">p_text</span><span class="p">,</span> <span class="n">q_text</span><span class="o">=</span><span class="n">q_text</span><span class="p">,</span> <span class="n">device_id</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">out</span><span class="o">.</span><span class="n">mauve</span><span class="p">)</span> <span class="c1"># prints a number between 0 and 1</span>
+</pre></div>
+</div>
+For more details, please see the documentation of
+<a href="https://krishnap25.github.io/mauve/"><b>MAUVE pip package</b></a> or
+<a href="https://huggingface.co/spaces/evaluate-metric/mauve"><b>MAUVE's page on HuggingFace Evaluate</b></a>.</section>
+<section id="references-bibtex">
+<h2>References (<a class="reference external" href="_static/bibtex.bib">Bibtex</a>)<a class="headerlink" href="#references-bibtex" title="Link to this heading">¶</a></h2>
+<p>[1]  Pillutla, K., Liu, L., Thickstun, J., Welleck, S., Swayamdipta, S., Zellers, R., Oh, S., Choi, Y. and Harchaoui, Z., 2023. <strong>MAUVE Scores for Generative Models: Theory and Practice</strong>. <em>Journal of Machine Learning Research</em>, 24(356), pp.1-92.</p>
+<p>[2] Pillutla, K., Swayamdipta, S., Zellers, R., Thickstun, J., Welleck, S., Choi, Y. and Harchaoui, Z., 2021. <strong>MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers</strong>. <em>Proc. of NeurIPS</em> pp.4816-4828.</p>
+<p>[3] Liu, L., Pillutla, K., Welleck, S., Oh, S., Choi, Y. and Harchaoui, Z., 2021. <strong>Divergence Frontiers for Generative Models: Sample Complexity, Quantization Effects, and Frontier Integrals</strong>. <em>Proc. of NeurIPS</em> pp.12930-12942.</p>
+</section>
+<section id="acknowledgments">
+<h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Link to this heading">¶</a></h2>
+<p>Part of this work was done while Zaid Harchaoui was visiting the Simons Institute for
+the Theory of Computing, and while Krishna Pillutla, Lang Liu, John Thickstun, Sean Welleck, and Rowan Zellers were at the University of Washington, and Swabha Swayamdipta was at the Allen Insitute for AI. This work was supported by NSF
+DMS-2134012, NSF CCF-2019844, NSF DMS-2023166, the DARPA MCS program through
+NIWC Pacific (N66001-19-2-4031), the CIFAR “Learning in Machines &amp; Brains” program,
+a Qualcomm Innovation Fellowship, and faculty research awards.</p>
+</section>
+</section>
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+    <nav class="relbar">
+    </nav>
+
+    <footer role="contentinfo">
+      &#169; Copyright 2023 Authors.
+      Created using <a class="reference external" href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
+<a class="reference internal" href="_sources/index.rst.txt" rel="nofollow">Show Source</a>.
+    </footer>
+  </body>
+</html>
